@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/petrsysel/easybox/issues"
   },
-  "homepage": "https://github.com/petrsysel/easybox#readme"
+  "homepage": "https://github.com/petrsysel/easybox#readme",
+  "files": [
+    "/dist"
+  ]
 }
