@@ -1,8 +1,8 @@
-type None = undefined;
-type Some<T> = {
+export type None = undefined;
+export type Some<T> = {
     value: T;
 };
-declare const none: None;
-declare function some<T>(value: T): Some<T>;
-type Option<T> = None | Some<T>;
-declare function isSome<T>(o: Option<T>): o is Some<T>;
+export declare const none: None;
+export declare function some<T>(value: T): Some<T>;
+export type Option<T> = None | Some<T>;
+export declare function isSome<T>(o: Option<T>): o is Some<T>;
