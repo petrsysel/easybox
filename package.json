@@ -1,0 +1,29 @@
+{
+  "name": "easybox",
+  "version": "1.0.0",
+  "description": "A bundle of handy tools for simple but powerfull appliacations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrsysel/easybox.git"
+  },
+  "keywords": [
+    "design",
+    "patterns",
+    "clean",
+    "code",
+    "functional",
+    "programming",
+    "easy",
+    "toooling"
+  ],
+  "author": "Petr Sysel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petrsysel/easybox/issues"
+  },
+  "homepage": "https://github.com/petrsysel/easybox#readme"
+}
