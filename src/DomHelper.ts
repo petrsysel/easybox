@@ -1,28 +1,26 @@
 export class DomHelper{
-    body(){
+    static body(){
         return document.body as HTMLBodyElement
     }
 
-    makeDiv(){
+    static makeDiv(){
         return document.createElement('div') as HTMLDivElement
     }
 
-    make(tag: keyof HTMLElementTagNameMap){
+    static make(tag: keyof HTMLElementTagNameMap){
         return document.createElement(tag)
     }
 
-    get(id: string){
+    static get(id: string){
         return document.getElementById(id)
     }
 
-    appentToBody(element: HTMLElement){
+    static appentToBody(element: HTMLElement){
         document.body.appendChild(element)
     }
-
-    makeDivWith(content: string){
+    
+    static makeDivWith(content: string){
         const div = this.makeDiv()
         div.innerHTML = content
     }
-
-    
 }
