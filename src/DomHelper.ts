@@ -22,5 +22,6 @@ export class DomHelper{
     static makeDivWith(content: string){
         const div = this.makeDiv()
         div.innerHTML = content
+        return div
     }
 }
