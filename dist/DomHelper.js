@@ -20,6 +20,7 @@ class DomHelper {
     static makeDivWith(content) {
         const div = this.makeDiv();
         div.innerHTML = content;
+        return div;
     }
 }
 exports.DomHelper = DomHelper;

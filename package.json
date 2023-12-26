@@ -1,6 +1,6 @@
 {
   "name": "easybox",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A bundle of handy tools for simple but powerfull appliacations",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
